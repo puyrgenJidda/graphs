@@ -1,0 +1,21 @@
+#graph {
+    position: absolute;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #808080;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.line {
+    position: absolute;
+    height: 3px;
+    z-index: 0;
+}
