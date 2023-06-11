@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Неорієнтований граф</title>
     <link rel="stylesheet" href="css/graph.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <style>
-        .line{
+        .line {
             height: 2px;
             background-color: #808080;
         }
     </style>
 </head>
+
 <body>
-    <div id="graph">
-        <div class="circle" style="left: 50px; top: 50px;"></div>
-        <div class="line" style="left: 60px; top: 55px;"></div>
-        <div class="line" style="left: 55px; top: 55px;"></div>
-
-        <div class="circle" style="left: 200px; top: 50px;"></div>
-        <div class="line" style="left: 205px; top: 55px;"></div>
-        <div class="line" style="left: 205px; top: 55px;"></div>
-
-        <div class="circle" style="left: 130px; top: 100px;"></div>
-        <div class="line" style="left: 135px; top: 105px;"></div>
-
-        <div class="circle" style="left: 350px; top: 100px;"></div>
-        <div class="line" style="left: 355px; top: 105px;"></div>
-
-        <div class="circle" style="left: 50px; top: 150px;"></div>
-        <div class="line" style="left: 55px; top: 155px;"></div>
-
-        <div class="circle" style="left: 200px; top: 150px;"></div>
-        <div class="line" style="left: 205px; top: 155px;"></div>
-        <div class="line" style="left: 205px; top: 155px;"></div>
-
-        <div class="circle" style="left: 280px; top: 160px;"></div>
-        <div class="line" style="left: 285px; top: 165px;"></div>
-
-        <div class="circle" style="left: 130px; top: 200px;"></div>
-        <div class="line" style="left: 135px; top: 205px;"></div>
-
-        <div class="circle" style="left: 350px; top: 200px;"></div>
-        <div class="circle" style="left: 270px; top: 250px;"></div>
+    <div class="menu">
+        <h1>Меню</h1>
+        <ul>
+            <li><a href="dir_graph.html">Орієнтований граф</a></li>
+            <li><a href="index.html">Головна сторінка</a></li>
+        </ul>
     </div>
-    <script src="js/graph.js"></script>
+    <div class="container">
+        <h1>Неорієнтований граф</h1>
+        <div id="graph">
+            <div class="circle" style="left: 50px; top: 50px;">1</div>
+            <div class="circle" style="left: 200px; top: 35px;">2</div>
+            <div class="circle" style="left: 140px; top: 70px;">3</div>
+            <div class="circle" style="left: 330px; top: 60px;">4</div>
+            <div class="circle" style="left: 50px; top: 90px;">5</div>
+            <div class="circle" style="left: 200px; top: 75px;">6</div>
+            <div class="circle" style="left: 280px; top: 80px;">7</div>
+            <div class="circle" style="left: 110px; top: 110px;">8</div>
+            <div class="circle" style="left: 340px; top: 100px;">9</div>
+            <div class="circle" style="left: 250px; top: 140px;">10</div>
+
+            <div class="line" style="left: 57px; top: -94px;"></div>
+            <div class="line" style="left: 57px; top: -94px;"></div>
+            <div class="line" style="left: 207px; top: -100px;"></div>
+            <div class="line" style="left: 207px; top: -100px;"></div>
+            <div class="line" style="left: 142px; top: -55px;"></div>
+            <div class="line" style="left: 335px; top: -48px;"></div>
+            <div class="line" style="left: 55px; top: -7px;"></div>
+            <div class="line" style="left: 205px; top: -7px;"></div>
+            <div class="line" style="left: 210px; top: -10px;"></div>
+            <div class="line" style="left: 287px; top: 10px;"></div>
+            <div class="line" style="left: 120px; top: 52px;"></div>
+        </div>
+    </div>
     <script src="js/graph_un.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,6 @@
+apexes = document.getElementsByClassName('circle');
+lines = document.getElementsByClassName('line');
+button = document.getElementsByTagName('input')[0];
 counter_apex = 0;
 color_lines = [[0], [0, 1], [0, 2, 3, 6], [0, 0, 0, 4, 5, 10], [0, 0, 7, 8, 9, 10]];
 color_apexes = [0, 1, 4, 2, 3, 7, 5, 6, 9, 8];

@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Орієнтований граф</title>
     <link rel="stylesheet" href="css/graph.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <style>
-        .line{
+        .line {
             height: 2px;
         }
     </style>
 </head>
+
 <body>
-    <div id="graph">
-        <div class="circle" style="left: 20px; top: 50px;">1</div>
-        <img src="img/arrow_gray.png" alt="" class="line" style="left: 25px; top: 52px;">
-        <img src="img/arrow_gray.png" alt="" class="line" style="left: 25px; top: 52px;">
-
-        <div class="circle" style="left: 170px; top: 50px;">2</div>
-        <img src="img/arrow_gray.png" alt="" class="line" style="left: 175px; top: 52px;">
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 175px; top: 52px;">
-
-        <div class="circle" style="left: 100px; top: 100px;">3</div>
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 105px; top: 102px;">
-
-        <div class="circle" style="left: 320px; top: 100px;">4</div>
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 325px; top: 102px;">
-
-        <div class="circle" style="left: 20px; top: 150px;">5</div>
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 25px; top: 152px;">
-
-        <div class="circle" style="left: 170px; top: 150px;">6</div>
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 175px; top: 152px;">
-        <img src="img/arrow_gray.png" alt="" class="line" style="left: 175px; top: 152px;">
-
-        <div class="circle" style="left: 250px; top: 160px;">7</div>
-        <img src="img/arrow_gray.png" alt=""  class="line" style="left: 255px; top: 162px;">
-
-        <div class="circle" style="left: 100px; top: 200px;">8</div>
-        <img src="img/arrow_gray.png" alt="" class="line" style="left: 105px; top: 202px;">
-
-        <div class="circle" style="left: 320px; top: 200px;">9</div>
-        <div class="circle" style="left: 240px; top: 250px;">10</div>
+    <div class="menu">
+        <h1>Меню</h1>
+        <ul>
+            <li><a href="undir_graph.html">Неорієнтований граф</a></li>
+            <li><a href="index.html">Головна сторінка</a></li>
+        </ul>
     </div>
-    <input type="button" value="GO" onclick="nextStep()">
+    <div class="container">
+        <h1>Орієнтований граф</h1>
+        <div id="graph">
+            <div class="circle" style="left: 50px; top: 50px;">1</div>
+            <div class="circle" style="left: 200px; top: 35px;">2</div>
+            <div class="circle" style="left: 140px; top: 70px;">3</div>
+            <div class="circle" style="left: 330px; top: 60px;">4</div>
+            <div class="circle" style="left: 50px; top: 90px;">5</div>
+            <div class="circle" style="left: 200px; top: 75px;">6</div>
+            <div class="circle" style="left: 280px; top: 80px;">7</div>
+            <div class="circle" style="left: 110px; top: 110px;">8</div>
+            <div class="circle" style="left: 340px; top: 100px;">9</div>
+            <div class="circle" style="left: 250px; top: 140px;">10</div>
 
-    <script src="js/graph.js"></script>
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 57px; top: -105px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: -97px; top: -110px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: -45px; top: -112px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 205px; top: -127px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 0px; top: -78px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 113px; top: -74px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: -260px; top: -25px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 210px; top: -37px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 75px; top: -43px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: -5px; top: -27px;">
+            <img src="img/arrow_gray.png" alt="" class="line" style="left: 120px; top: 5px;">
+            <input type="button" value="GO" onclick="nextStep()" class="buttonGo">
+        </div>
+    </div>
+
+
     <script src="js/graph_dir.js"></script>
 </body>
+
 </html>
